@@ -1,0 +1,17 @@
+uuid: 215fb24f-a263-4ac6-9583-9dfc95c19bd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: City
+type: city
+description: 'Use <em>City</em> to create city details content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

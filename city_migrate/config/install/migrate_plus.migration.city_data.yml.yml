@@ -1,0 +1,22 @@
+id: city_data 
+label: JSON  City Migration 
+Group: Json Import
+source: 
+  plugin: city_data 
+destination: 
+  plugin: entity:node 
+  bundle: city 
+process: 
+  type: 
+    plugin: default_value 
+    default_value: 1 
+  title: city 
+  field_city_id: _id
+  field_city_location: loc
+  field_city_population: pop
+  field_city_state: state
+# use forced module dependency so uninstall/reinstall works properly 
+dependencies: 
+  enforced: 
+    module: 
+      - city_migrate

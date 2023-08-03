@@ -1,0 +1,9 @@
+name: City Data migrate
+description: Migrate city data into city nodes from json file.
+package: Custom
+type: module
+core_version_requirement: ^9.2
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
